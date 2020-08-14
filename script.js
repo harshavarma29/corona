@@ -469,7 +469,7 @@ function cases() {
         if(i<500) {
             setTimeout(function() {
                 execute();
-            },0.8);
+            },0.2);
         }
         conf.innerHTML = Number(c-500)+i;
         act.innerHTML = Number(a-500)+i;
