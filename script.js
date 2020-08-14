@@ -4,7 +4,6 @@ function questionAnswer() {
 
     var ques = document.getElementById("question");
 
-    var redS = document.getElementById("redS");
     redS.innerHTML = "";
 
     var greenS = document.getElementById("greenS");
@@ -469,7 +468,7 @@ function cases() {
         if(i<500) {
             setTimeout(function() {
                 execute();
-            },0.2);
+            },0.0);
         }
         conf.innerHTML = Number(c-500)+i;
         act.innerHTML = Number(a-500)+i;
